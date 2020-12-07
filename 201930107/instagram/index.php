@@ -46,6 +46,7 @@ function getRowData($result) {
 
     $rows = [];
     for ($i=0; $i < $cnt; $i++) {
+        //복합대입연산
         $rows []= mysqli_fetch_object($result);
     }
 
